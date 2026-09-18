@@ -28,7 +28,7 @@ U_2 = 2.5
 t = 0:0.005:1
 
 s = A*sin(2*q*f*t)
-n = sigma*rand(size(t))
+n = sigma*randn(size(t))
 
 s = s+n
 
